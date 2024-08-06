@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.fragments.FirstFragment"
+    android:orientation="vertical"
+    android:background="#E91E63">
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_name"
+        android:hint="Please write your name"
+        android:layout_marginStart="100dp"/>
+    <EditText
+        android:id="@+id/editText_EmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_marginStart="100dp"
+        android:hint="Email adress"/>
+
+    <EditText
+        android:id="@+id/edit_TextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:layout_marginStart="100dp"
+        android:hint="Password"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="30dp"
+        android:text="Chama"
+        android:id="@+id/btn_next"
+        />
+
+
+</LinearLayout>
